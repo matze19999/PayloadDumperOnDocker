@@ -31,5 +31,4 @@ CMD ["/usr/bin/python", "payload_dumper.py", "payload.bin"]
 #-v /Docker/fileserver/files/payload:/payload_dumper/output \
 #-v /Docker/fileserver/files/payload.bin:/payload_dumper/payload.bin \
 #--name=payload_dumper \
-#--privileged \
 #payload_dumper:latest
