@@ -1,0 +1,11 @@
+#Stack: PayloadDumperOnDocker
+
+version: '3.6'
+services:
+  payload_dumper:
+    container_name: 'payload_dumper'
+    image: 'matze19999/payload_dumper:latest'
+    volumes:
+     - '/Docker/fileserver/files/payload:/payload_dumper/output'
+     - '/Docker/fileserver/files/payload.bin:/payload_dumper/payload.bin'
+    
