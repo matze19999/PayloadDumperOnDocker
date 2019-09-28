@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:jessie-slim
 
 # Geschrieben von
 # Matthias Pröll <proell.matthias@gmail.com>
