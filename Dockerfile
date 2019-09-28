@@ -8,7 +8,7 @@ FROM debian:jessie-slim
 # LABELS
 LABEL vendor="Staudigl-Druck GmbH & Co. KG"
 LABEL maintainer="Matthias Pröll (proell.matthias@gmail.com)"
-LABEL release-date="2019-09-17"
+LABEL release-date="2019-09-27"
 
 COPY . /payload_dumper
 
