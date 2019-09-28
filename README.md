@@ -8,4 +8,4 @@ debian:Latest
 amd32 / amd64
 
 ## Image Size
-264.7 MB
+79 MB
